@@ -1,0 +1,19 @@
+{
+  "name": "node-spider",
+  "version": "1.0.0",
+  "description": "nodejs spider framework,support normal and puppeteer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "forsaken",
+  "license": "MIT",
+  "dependencies": {
+    "crawler": "^1.2.1",
+    "http-proxy-agent": "^4.0.1",
+    "https-proxy-agent": "^5.0.0",
+    "puppeteer": "^2.1.1",
+    "request": "^2.88.2",
+    "socks-proxy-agent": "^5.0.0"
+  }
+}
