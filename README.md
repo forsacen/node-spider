@@ -4,7 +4,11 @@ node爬虫，用js编写，用node-crawler和puppeteer封装，支持常规和pu
 const spider=require('./node-spider')
 
 spider.init(option)
-
+    /******************
+    
+        设置代理均略有不同 proxy:'(socks5/https/http):127.0.0.1:1080'  
+        
+    ******************/
     opiton.crawler:option
     
         crawler.base:完全等于官方node-crawler选项

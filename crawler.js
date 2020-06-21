@@ -1,4 +1,4 @@
-const NodeCrawler=require('crawler')
+    const NodeCrawler=require('crawler')
 const util=require('util')
 const httpProxyAgent = require("http-proxy-agent");
 const httpsProxyAgent = require("https-proxy-agent");
@@ -28,7 +28,7 @@ crawler.prototype.queue=function(opt){
         }
     }
     if(opt.proxy){
-        if (opt.proxy.startsWith("socks")) {
+        if (opt.proxy.startsWith("socks5")) {
             var agent=new socksProxyAgent(opt.proxy);
         }
         else if (opt.url.startsWith("https")) {

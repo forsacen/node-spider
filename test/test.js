@@ -57,7 +57,7 @@ let cookie=new Cookie()
 var cookieStr='BIDUPSID=C72A4D41C2B6707CB82AA04E298A690F; PSTM=1566923817; BDUSS=ViLU8wUi1vZVNDc0Y2THdHb3hCRTBjYmRLMTgxUGl4SmdKVTN3c1Q2cFdUdzVlRVFBQUFBJCQAAAAAAAAAAAEAAAA4vbUdQW5nbGVfU2VhbgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFbC5l1WwuZdTH; BAIDUID=CDE2B1BBBF28C29C9955503B6F6F3579:FG=1; ispeed_lsm=0; BD_UPN=123353; delPer=0; BD_CK_SAM=1; PSINO=6; rsv_jmp_slow=1585723134399; BD_HOME=1; BDRCVFR[feWj1Vr5u3D]=I67x6TjHwwYf0; H_PS_PSSID=1446_21095_30908_30824_26350_22160'
 cookie.add(cookieStr,'https://www.baidu.com',{domain:'.baidu.com'})
 let j=cookie.getJar()
-spider.crawler.queue({url:'https://www.baidu.com',headers:headers,jar:j})
+spider.crawler.queue({url:'https://2020.ip138.com/',headers:headers,jar:j})
 spider.puppeteer.queue({
     url:'https://www.baidu.com',
     timeout:'100000',
