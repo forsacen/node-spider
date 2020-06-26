@@ -13,4 +13,4 @@ spider.prototype.init=function(opt){
     }
 }
 
-module.exports=new spider()
+module.exports=spider

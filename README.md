@@ -13,7 +13,8 @@ spider.init(option)
     opiton.crawler:option
     
         crawler.base:完全等于官方node-crawler选项
-        crawler.extra:额外增加选项(暂无)
+        crawler.extra:额外增加选项
+            extra.proxyTimeout:连接代理超时选项,毫秒,默认比较长,20秒左右
             
     option.puppeteer:option
     
