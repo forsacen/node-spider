@@ -50,7 +50,7 @@ spider.puppeteer:method
         option.userAgent:string,自定义userAgent
         option.jar:request.jar,自定义cookiejar
         option.device:'puppeteer/DeviceDescriptors',指定用什么设备模拟
-        option.agent:string,代理(http,https,socks5),例如socks5://127.0.0.1:1080
+        option.proxy:string,代理(http,https,socks5),例如socks5://127.0.0.1:1080
 spider.puppeteer:event
     
     Event: 'schedule',任务即将开始前触发
